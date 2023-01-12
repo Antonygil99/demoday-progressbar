@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;700&display=swap');
+
+body{
+	font-family: 'Ubuntu', sans-serif;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: green;
+}
+
+.progress {
+    background-color: white;
+    border-radius: 20px;
+    height: 10px;
+    width: 300px;
+}
+
+.progress-done {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: repeating-linear-gradient(
+        to left,
+        #701D1C,
+        #BD322F,
+        #E03519
+    );
+    box-shadow: 0 5px 5px -6px #701D1C, 0 3px 7px  #BD322F;
+    border-radius: 20px;
+    color: #fff;
+    height: 100%;
+    width: 0;
+    transition: 1s ease 0.3s;
+}
+
+.inputContainer {
+    display: flex;
+    width: 50%;
+    justify-content: space-evenly;
+
+}
+
